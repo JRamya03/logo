@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-size=100%;
+}
+ body{
+   background: grey;
+ }
+ .card{
+   width: 400px;
+   background: white;
+   margin:30px;
+   border-radius: 12px 12px 12px 12px; 
+   box-shadow: #111 0 0 10px;
+ }
+ 
+ .card-header img{
+   width: 100%;
+   border-radius: 12px 12px 0 0;
+ }
+ .card-body{
+   text-align: center;
+   padding-left: 30px;
+   padding-right: 30px;
+   margin-top: -65px;
+ }
+ 
+.card-body img{
+  width: 100px;
+  border: solid 4px #fff;
+  border-radius: 50%;
+}
+.card-body h2{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+ .card-body p{
+   padding-bottom: 60px;
+ }
+ 
+  
+
